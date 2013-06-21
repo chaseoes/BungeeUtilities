@@ -1,0 +1,9 @@
+name: BungeeUtilities
+main: com.chaseoes.bungeeutilities.BungeeUtilities
+version: 1.0
+description: Various utilities and functions for BungeeCord servers.
+commands:
+  bungeeutilities:
+    description: The central command for the BungeeUtilities plugin.
+    usage: /<command> [args]
+    aliases: [bu]
