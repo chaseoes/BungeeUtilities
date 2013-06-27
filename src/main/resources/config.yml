@@ -1,0 +1,68 @@
+current-server: hub
+overflow:
+  enabled: true
+  server: hub
+magical-clock:
+  enabled: true
+  item: clock
+  name: '&aMagical Clock'
+  delay: 5
+ip-whitelist:
+  enabled: true
+  allowed-ips:
+  - '0.0.0.0'
+server-menu:
+  enabled: true
+  title: 'Click an item to visit a server'
+  item: compass
+  item-name: '&cTeleporter'
+  prevent-item-dropping: true
+  prevent-book-dropping: false
+  prevent-item-movement: true
+  prevent-book-movement: false
+  books:
+    enabled: false
+    files:
+    - rules.txt
+  servers:
+    '1':
+      server: hub
+      name: '&lHub'
+      item: 'wool'
+      description: '&7Server Lobby!'
+    '2':
+      server: sg
+      name: '&r&l&6Survival Games'
+      item: 'wool:orange'
+      description: '&7Play &6Survival Games!'
+    '3':
+      server: creative
+      name: '&r&l&aCreative'
+      item: 'wool:lime'
+      description: '&7Build on &aCreative!'
+    '4':
+      server: spleef
+      name: '&l&5Spleef'
+      item: 'wool:purple'
+      description: '&7Play classic &5Spleef!'
+    '5':
+      server: tf2
+      name: '&r&l&eTF2'
+      item: 'wool:yellow'
+      description: '&7Play MC &eTeam Fortress 2!'
+    '6':
+      server: deathswap
+      name: '&r&l&4DeathSwap'
+      item: 'wool:red'
+      description: '&cUnder Construction!'
+    '7':
+      server: paintball
+      name: '&r&l&3Paintball'
+      item: 'wool:light_blue'
+      description: '&cUnder Construction!'
+    '8':
+      server: skyblock
+      name: '&r&l&9Skyblock'
+      item: 'wool:gray'
+      description: '&cUnder Construction!'
+  
